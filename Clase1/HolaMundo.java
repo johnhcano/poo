@@ -7,6 +7,8 @@ public class HolaMundo {
         //Creación de la variable x de tipo entero
         int x = 2;
 
+        System.out.println(x);
+
     }
 
 }
