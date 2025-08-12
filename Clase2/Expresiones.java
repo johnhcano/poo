@@ -9,5 +9,7 @@ public class Expresiones {
          int b = 5;
 
          System.out.println( 3 * a - 4 * b / Math.pow(a,2) );
+
+         //Ejercicios 3.6 3.7 3.8
     }
 }
