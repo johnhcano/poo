@@ -13,5 +13,31 @@ public class Condicionales {
             System.out.println("No es mayor de edad");
         }
 
+        /*
+         * Problema a. Si un ángulo es igual a 90 grados, imprimir el mensaje
+         * "El ángulo es un ángulo recto"
+         * sino imprimir el mensaje "El ángulo no es un ángulo recto".
+         */
+
+        int angulo = 100;
+        if (angulo == 90) {
+            System.out.println("El ángulo es un ángulo recto");
+        } else {
+            System.out.println("El ángulo no es un ángulo recto");
+        }
+
+        /*
+         * Problema b. Si la temperatura es superior a 100 grados, visualizar el mensaje “por encima del 
+         * punto de ebullición del agua” sino visualizar el mensaje “por debajo del punto de 
+         * ebullición del agua”.
+         */
+
+         int temperatura = 80;
+         if (temperatura > 100){
+            System.out.println("por encima del punto de ebullición del agua");
+         }else{
+            System.out.println("por debajo del punto de ebullición del agua");
+         }
+
     }
 }
