@@ -18,5 +18,17 @@ public class EstructurasRepeticionCiclos {
          *      6 <= 5 F X
          */
 
+        System.out.println("*******************************");
+        //while (Mientras)
+        //Paso1: declaración de la variable
+        int j = 1;
+        //Paso2: el while con la condición
+        while(j <= 5){
+            System.out.println("j = " + j);
+            //Paso3: incrementar la j
+            j++;
+        }
+
+
     }
 }
