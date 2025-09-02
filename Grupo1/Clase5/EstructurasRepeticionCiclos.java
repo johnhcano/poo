@@ -29,6 +29,15 @@ public class EstructurasRepeticionCiclos {
             j++;
         }
 
+        System.out.println("*******************************");
+        //do-while (Haga - Mientras) - Garantiza que por lo menos entra una vez al ciclo
+        // cumpla o no cumpla la condición
+        int x = 1;
+        do{
+            System.out.println("x = " + x);
+            x++;
+        }while(x <= 5);
+
 
     }
 }
