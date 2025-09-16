@@ -24,5 +24,15 @@ public class EjecutarPersonaGrupoUno {
         System.out.println(objPersona2.toString());
 
 
+        /* Tarea: 
+         * Crear 3 objetos más de la clase Persona
+         * Crear los metodos get y set para los atributos que faltan
+         * Crear el metodo saludar que retorne un saludo con el nombre de la persona
+         * Crear el metodo esMayorDeEdad que retorne true si la persona es mayor de edad (18 años) y false si no lo es
+         * Crear el metodo calcularIMC que retorne el indice de masa corporal (IMC) de la persona
+         * IMC = peso (kg) / (altura (m) * altura (m))
+         * Mostrar por pantalla los resultados de los nuevos metodos
+         */
+        
     }
 }
