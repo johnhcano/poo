@@ -20,6 +20,15 @@ public class Persona {
         this.peso = peso;
     }
 
+    // Métodos Getters y Setters
+    public String getNombre(){ //Obtener el nombre
+        return nombre;
+    }
+
+    public void setNombre(String nombre){ //Modificar el nombre
+        this.nombre = nombre;
+    }
+
     //El método toString sirve para visualizar los objetos
     public String toString() {
         return "Persona [ Nombre: " + nombre + " Apellido: " + apellido +
