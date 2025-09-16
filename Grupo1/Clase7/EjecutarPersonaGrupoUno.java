@@ -12,7 +12,15 @@ public class EjecutarPersonaGrupoUno {
 
         //Mostrar por pantalla el objeto creado
         System.out.println(objPersona1.toString());
+        System.out.println(objPersona2.toString());
 
+        //Mostrar el nombre de la persona1
+        System.out.println(objPersona1.getNombre());
+
+        //Modificar el nombre de la persona2
+        objPersona2.setNombre("Harvin"); 
+
+        //Mostrar el objeto objPersona2 con la modificación del nombre
         System.out.println(objPersona2.toString());
 
 
