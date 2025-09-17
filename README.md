@@ -15,4 +15,5 @@ https://academy.jetbrains.com/
 Cursos con Certificado de Microsoft
 https://learn.microsoft.com/es-es/training/browse/?resource_type=course
 
-
+Vademecum de JAVA
+https://eaddfsi.wordpress.com/wp-content/uploads/2009/06/vademecum.pdf
