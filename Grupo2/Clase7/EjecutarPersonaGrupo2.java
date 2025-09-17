@@ -18,5 +18,8 @@ public class EjecutarPersonaGrupo2 {
                                             65.0);
 
         System.out.println(objPersona2.estudiar("Ingeniería de Sistemas"));
+
+        //Tarea: implementar los metodos get y set en la clase Persona
+        //dichos métodos utilizarlos en la clase EjecutarPersonaGrupo2
     }
 }
