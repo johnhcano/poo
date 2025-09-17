@@ -32,9 +32,11 @@ public class Persona {
     public void comer(){
         System.out.println("Comiendo");
     }
-    
+
     public String estudiar(String carrera){
         return "Usted está estudiando: " + carrera;
     }
+
+    //Tarea consultar sobre el método toString.
     
 }
