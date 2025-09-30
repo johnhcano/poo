@@ -6,6 +6,9 @@ public class EjecutarOpeMat {
 
         //Acceder al método sumar
         System.out.println("La suma es: " + objOpe.sumar());
+
+        //Acceder al método restar
+        System.out.println("La suma es: " + objOpe.restar());
         
 
     }    
