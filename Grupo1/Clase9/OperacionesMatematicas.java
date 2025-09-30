@@ -28,7 +28,8 @@ public class OperacionesMatematicas {
         if (b == 0) {
             resultado = 0.0;
         } else {
-            resultado = a / b;
+            //(double) significa hacer una conversión de entero a real (CAST)
+            resultado = (double) a / (double) b;
         }
         return resultado;
     }
