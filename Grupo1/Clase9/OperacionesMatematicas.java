@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class OperacionesMatematicas {
 
     // Atributos de la clase
@@ -34,21 +32,6 @@ public class OperacionesMatematicas {
             resultado = (double) a / (double) b;
         }
         return resultado;
-    }
-
-    // método para recibir numeros enteros por teclado
-    public int leerEnteros() {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Digite el número entero...");
-        int n = sc.nextInt(); //capturar el dato que se digite por teclado
-        /*
-         * Para números enteros nextInt() -> ejemplo: sc.nextInt()
-         * Para números reales nextDouble() -> ejemplo: sc.nextDouble()
-         * Para booleanos nextBoolean() -> ejemplo: sc.nextBoolean()
-         * Para cadenas (String) next() -> ejemplo: sc.next()
-         */
-        sc.close();
-        return n;
     }
 
 }
