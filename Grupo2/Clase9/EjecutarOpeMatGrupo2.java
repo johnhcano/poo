@@ -24,5 +24,14 @@ public class EjecutarOpeMatGrupo2 {
         System.out.println("El resultado de la división es: " + objOp.dividir());
         
         sc.close();
+
+        //Tarea: implementar los métodos:
+        //    - elevar al cuadrado
+        //    - elevar al cubo
+        //    - elevar a la n
+        //    - sacar la raíz cuadrada
+        //    - sacar la raíz cúbica
+        //    - sacar la raíz n
+        // Todo lo anterior con un menú de opciones
     }
 }
