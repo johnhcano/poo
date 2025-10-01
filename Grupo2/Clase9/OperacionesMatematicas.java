@@ -25,5 +25,22 @@ public class OperacionesMatematicas {
         return n1 + n2;
     }
 
+    public int restar(){
+        return n1 - n2;
+    }
+
+    public int multiplicar(){
+        return n1 * n2;
+    }
+
+    public double dividir(){
+        double resultado;
+        if (n2 == 0){
+            resultado = 0.0; 
+        }else {
+            resultado = (double) n1 / (double) n2;  //Convertir un entero a real 
+        }
+        return resultado;
+    }
 
 }
