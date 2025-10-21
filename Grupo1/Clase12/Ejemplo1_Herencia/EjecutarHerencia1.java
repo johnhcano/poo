@@ -1,3 +1,5 @@
+package Ejemplo1_Herencia;
+
 public class EjecutarHerencia1 {
     public static void main(String[] args) {
         

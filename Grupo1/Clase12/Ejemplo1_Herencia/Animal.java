@@ -1,3 +1,4 @@
+package Ejemplo1_Herencia;
 //Clase padre o superclase
 public class Animal {
 
