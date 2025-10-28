@@ -8,8 +8,17 @@ public class Cuenta {
         this.saldo = saldo;
     }
 
+    public void retirar(double cantidad) {
+        if (cantidad <= saldo) {
+            saldo -= cantidad;
+        } else {
+            System.out.println("Fondos insuficientes");
+        }
+    }
+
     @Override
     public String toString() {
         return "Cuenta{" + "numero=" + numero + ", saldo=" + saldo + "}"; 
     } 
+
 }
